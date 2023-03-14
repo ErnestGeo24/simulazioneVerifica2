@@ -2,3 +2,12 @@
     font-family: Optima;
     text-align: center;
 }
+.colonna{
+    width: 33.33%;
+    padding: 5px;
+}
+.linea{
+    content: "";
+    clear: both;
+    display: table;
+}
