@@ -1,19 +1,20 @@
 <html>
     <head>
         <title>Castello Sforzesco</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
     </head>
     <body>
         <h1 class = testo >Castello Sforzesco</h1>
         <img src="{{url_for('static', filename='image/sforzesco.jpeg')}}" align="center" />
         <div class="linea">
             <div class="colonna">
-              <img src="{{url_for('static', filename='image/persona.png')}}">
+              <img src="{{url_for('static', filename='image/persona.png')}}" <a href = "/costi"></a>>
             </div>
             <div class="colonna">
-              <img src="{{url_for('static', filename='image/persone.jpeg')}}">
+              <img src="{{url_for('static', filename='image/persone.jpeg')}}" <a href = "/costi"></a>>
             </div>
             <div class="colonna">
-              <img src="{{url_for('static', filename='image/guida.jpeg')}}">
+              <img src="{{url_for('static', filename='image/guida.jpeg')}}" <a href = "/costi"></a>>
             </div>
           </div>
     </body>
